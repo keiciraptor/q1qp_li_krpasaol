@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Meddon&family=PT+Serif:wght@700&display=swap'); /*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    background-color: #e8e9e2;
+    margin: 0px;
+    padding: 0px;
+}
+.menubar{
+    background-color: #afe4ab;
+    top: 0px;   /*ang kabalo ko sir, kay iyahang gipasaka ang akoang menubar*/
+    position: fixed;
+    height: 4vw;
+    width: 100%;
+}
+.menubar img{ /*for the logo*/
+    width: 4vw;
+    height: 4vw;
+    float: left;
+    margin-left: 20px;
+    background-color: #afe4ab;
+}
+.menubar li{    
+    list-style-type: none;
+    margin: 5px;
+}
+.linksgroup{
+    display: block;
+}
+.linksgroup a{
+    background-color: #afe4ab;
+    float: right;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    font-size: larger;
+}
+.linksgroup a:hover{    /*para naay color pag-ihover*/
+    background-color: #fde2d9;
+}
+.body{  /*sorry if daghan kaayo sir, gusto man gud nako nga arranged kay messy tan-awon*/
+    padding-top: 70px;
+}
+.body p{
+    font-family: 'Noto Sans', sans-serif;
+    margin-right: 40px;
+    margin-left: 30px;
+    text-align: justify;
+}
+.body li{
+    list-style-type: none;
+    font-family: 'Noto Sans', sans-serif;
+    margin-right: 40px;
+    margin-left: 30px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.bc{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.ref{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 2vw;
+}
+.cc{
+    margin-left: 30px;
+    font-size: 2vw;
+}
+.bs{
+    margin-left: 30px;
+    font-size: 2vw;
+}
+.headern{
+    margin-left: 50px;
+    font-size: 2vw;
+}
+.c1 img{
+    width: 68vw;
+    height: 38vw;
+    margin-left: 15%;
+}
+.footer{
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: #edc3df;
+    margin-top: 20px;
+}
+#footertxt{
+    margin-top: 8px;
+    float: left;
+    background-color: #edc3df;
+}
+.footer li{
+    list-style-type: none;
+    float: right;
+}
+.footer svg{    /*ang svg is kadtung logos po*/
+    background-color: #edc3df;
+    height: 30px;
+    width: 30px;
+    color: black;
+}
+
