@@ -19,7 +19,7 @@
     margin-left: 20px;
     background-color: #afe4ab;
 }
-.menubar li{    
+.menubar li{    /*kani tung sa menubar nga listahan */
     list-style-type: none;
     margin: 5px;
 }
@@ -67,22 +67,28 @@
 .gallery:hover{
     border: 1px solid black;
 }
-.gallery img{
+.gallery img{ /*tung mga img sa gallery*/
     border: 1px solid #fde2d9;
     width: 100%;
     height: 60%; 
+}
+.co img{
+    margin: 10px;
+}
+.histogram1{
+    margin-left: 50%;
 }
 .desc{
     background-color: #edc3df;
     padding: 15px;
     text-align: center;
 }
-.qld{
+.qld{   /*qualitative data*/
     margin-left: 30px;
     margin-top: 10px;
     font-family: 'Noto Sans', sans-serif;
 }
-.qtd{
+.qtd{ /*quantitative data*/
     margin-left: 30px;
     margin-top: 10px;
     font-family: 'Noto Sans', sans-serif;
@@ -92,12 +98,48 @@
     margin-top: 10px;
     font-family: 'Noto Sans', sans-serif;
 }
-.ref{
+.researcher img{
+    float: left;
+    border-radius: 500px;
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+}
+.info p{
+    margin: 10px;
+}
+.info h3{
+    font-family: 'Noto Sans', sans-serif;
+}
+.info{
+    float: left;
+    width: 3;
+    padding: 20px;
+}
+.info:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.researchers img{
+    float: left;
+    width:500px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.res{
+    margin-left: 30px;
+    font-size: 2vw;
+    color: #ff78d2;
+}
+.ref{ /*references*/
     margin-top: 30px;
     margin-left: 30px;
     font-size: 2vw;
 }
-.cc{
+.cc{ /*conclusion*/
     margin-left: 30px;
     font-size: 2vw;
 }
